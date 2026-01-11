@@ -1,0 +1,58 @@
+/* shared */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo{
+  width: 139px;
+  height: 60px;
+   display: flex;
+  justify-content: space-between;
+}
+.logo .first-logo {
+ width: 46.51px;
+ height: 56px;
+ margin: 2px 6.75px;
+}
+.logo .second-logo{
+  width: 71px;
+  height: 51px;
+  margin: 5px 6.3px;
+}
+.btn {
+  padding: 12px 16px;
+  gap: 20px;
+  background-color: #469165;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600px;
+  font-size: 16px;
+}
+
+
+/* main */
+nav {
+  width: 74%;
+  max-width: 1057px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 16px 120px;
+}
+nav .menu {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+ 
+  align-items: center;
+ 
+}
+nav .menu a {
+  width: 365px;
+  height: 24px; 
+  text-decoration: none;
+  color: black;
+}
+
