@@ -147,9 +147,6 @@ nav .menu a {
 
 }
 #notes .notes-container .card-box {
-  /* max-width: 1360px;
-  margin: 44px 120px 48px; */
-  /* background-color: white; */
   display: flex;
   justify-content: space-between;
   gap: 16px;
@@ -224,4 +221,60 @@ nav .menu a {
   font-weight: 500;
   line-height: 20px;
   color: #001931;
+}
+#read .read-contant {
+  max-width: 1360px;
+  /* border: 1px solid red; */
+  margin: 2px 120px 120px;
+  text-align: center;
+  background-color: #f7f6f2 ;
+  padding: 80px 40px;
+  border-radius: 12px;
+}
+.read-contant h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.read-contant p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+footer{
+  background-color: #001931;
+}
+
+.social-box {
+
+  max-width: 1360px;
+  max-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px;
+  padding-top: 120px;
+}
+.social-link {
+  max-width: 220px;
+}
+.social-link p{
+  font-size: 20px;
+  font-weight: 28px;
+  line-height: 28px;
+  color: white;
+
+}
+.social-link img{
+  max-width: 20px;
+  padding: 4px;
+}
+footer hr{
+  max-width: 1360px;
+}
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding-bottom: 24px;
 }
